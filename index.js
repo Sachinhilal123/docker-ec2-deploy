@@ -5,7 +5,7 @@ const app = express();
 const PORT = 80;
 
 app.get("/", (req,res)=>{
- res.send("GitHub Actions Docker Deployment Successfully completed with GitHub changes");
+ res.send("GitHub Actions Docker Final");
 });
 
 
